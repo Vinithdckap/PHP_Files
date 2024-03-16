@@ -1,0 +1,116 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700;800;900&display=swap');
+
+@lexend : 'Lexend', sans-serif;
+@media screen and (max-width:767px) {
+    .main-section {
+        font-family: 'Lexend', sans-serif;
+
+        .main-container {
+            .lockscreen-contaner {
+                background-image: url(/Images/Lockscreen\ wallpaper.png);
+                height: 844px;
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+
+
+                .top-nav {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding: 0px 20px;
+
+                    time {
+                        padding: 15px 20px 15px 0px;
+                        color: white;
+
+                    }
+
+                }
+
+                .time-date {
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+
+                    .main-time {
+                        color: white;
+                        font-size: 83px;
+                        font-weight: 100;
+                        word-wrap: break-word
+                    }
+
+                    p {
+                        color: white;
+                        font-size: 22px;
+                        font-weight: 400;
+                        line-height: 28px;
+                        letter-spacing: 0.35px;
+                        word-wrap: break-word
+                    }
+                }
+
+                .footer {
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    margin: 526px 0px 50px 0px;
+                }
+
+            }
+
+            .homescreen-session {
+                display: none;
+
+                .homescreen-container {
+                    background-image: url(/Images/Home\ Screen.jpg);
+                    height: 844px;
+                    width: 100%;
+                    background-position: center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+
+
+                    .top-nav {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        padding: 0px 20px;
+
+                        time {
+                            padding: 15px 20px 15px 0px;
+                            color: white;
+
+                        }
+
+                    }
+
+                    .weather {
+                        padding: 53px 30px 186px 30px;
+                    }
+
+                    .neer {
+                        padding-left: 26px;
+                    }
+
+                    .widjet {
+                        padding: 10px 26px 30px 26px;
+                    }
+
+                    .primaryApps {
+                        padding: 0px 10px 0px 10px;
+                    }
+                }
+
+
+            }
+        }
+    }
+}

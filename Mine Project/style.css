@@ -1,0 +1,127 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lexend/v19/wlptgwvFAVdoq2_F94zlCfv0bz1WCzsW_LA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lexend/v19/wlptgwvFAVdoq2_F94zlCfv0bz1WCwkW_LA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lexend/v19/wlptgwvFAVdoq2_F94zlCfv0bz1WC-UR_LA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lexend/v19/wlptgwvFAVdoq2_F94zlCfv0bz1WC9wR_LA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lexend/v19/wlptgwvFAVdoq2_F94zlCfv0bz1WC7sR_LA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lexend/v19/wlptgwvFAVdoq2_F94zlCfv0bz1WC5IR_LA.ttf) format('truetype');
+}
+@media screen and (max-width: 767px) {
+  .main-section {
+    font-family: 'Lexend', sans-serif;
+  }
+  .main-section .main-container .lockscreen-contaner {
+    background-image: url(/Images/Lockscreen\ wallpaper.png);
+    height: 844px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .main-section .main-container .lockscreen-contaner .top-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+  }
+  .main-section .main-container .lockscreen-contaner .top-nav time {
+    padding: 15px 20px 15px 0px;
+    color: white;
+  }
+  .main-section .main-container .lockscreen-contaner .time-date {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .main-section .main-container .lockscreen-contaner .time-date .main-time {
+    color: white;
+    font-size: 83px;
+    font-weight: 100;
+    word-wrap: break-word;
+  }
+  .main-section .main-container .lockscreen-contaner .time-date p {
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.35px;
+    word-wrap: break-word;
+  }
+  .main-section .main-container .lockscreen-contaner .footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 526px 0px 50px 0px;
+  }
+  .main-section .main-container .homescreen-session {
+    display: none;
+  }
+  .main-section .main-container .homescreen-session .homescreen-container {
+    background-image: url(/Images/Home\ Screen.jpg);
+    height: 844px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .main-section .main-container .homescreen-session .homescreen-container .top-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+  }
+  .main-section .main-container .homescreen-session .homescreen-container .top-nav time {
+    padding: 15px 20px 15px 0px;
+    color: white;
+  }
+  .main-section .main-container .homescreen-session .homescreen-container .weather {
+    padding: 53px 30px 186px 30px;
+  }
+  .main-section .main-container .homescreen-session .homescreen-container .neer {
+    padding-left: 26px;
+  }
+  .main-section .main-container .homescreen-session .homescreen-container .widjet {
+    padding: 10px 26px 30px 26px;
+  }
+  .main-section .main-container .homescreen-session .homescreen-container .primaryApps {
+    padding: 0px 10px 0px 10px;
+  }
+}
